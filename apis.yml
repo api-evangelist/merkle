@@ -1,8 +1,25 @@
 aid: merkle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/merkle.png
 name: Merkle
-description: 'Merkle is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Merkle Data is a risk-management and analytics platform for crypto institutions, founded
+  in 2017 and headquartered in New York. The platform aggregates proprietary market data (its Pulse
+  dataset), public blockchain data, and third-party feeds to give funds, trading desks, and other
+  digital-asset institutions actionable analytics across portfolio risk, liquidity risk, and
+  counterparty risk, delivered through both interactive dashboards and programmatic APIs. Merkle Data
+  is backed by Pantera Capital. As of this enrichment pass no public developer portal, API reference,
+  or SDK is discoverable and merkledata.io resolves to a login-gated institutional dashboard, so this
+  record captures identity only.'
 url: https://raw.githubusercontent.com/api-evangelist/merkle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Analytics
+- Risk Management
+- Blockchain
+- Institutional Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://merkledata.io/dashboard
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
